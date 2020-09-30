@@ -1,0 +1,1269 @@
+{
+    "charName": "Zane",
+    "skillTree1": {
+        "treeNum": 1,
+        "skillTreeName": "Under Cover",
+        "skillList": [
+            {
+                "skillName": "Barrier",
+                "skillType": "Action Skill",
+                "skillDesc": "Drop a deployable Barrier that blocks incoming projectiles. Zane and his allies can shoot through the Barrier, dealing increased Gun Damage. Pressing F or G while Barrier is active picks up and holds the Barrier, but the size and bonuses are decreased.",
+                "treeNum": 1,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Duration: 14 seconds<br>Cooldown: 24 seconds<br>Damage Amp: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Adrenaline",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increased Action Skill Cooldown Rate. This bonus is based on the amount of shields he has. The more percent full, the greater the bonus.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Action Skill Cooldown Rate: Up to +7%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Action Skill Cooldown Rate: Up to +14%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Action Skill Cooldown Rate: Up to +21%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Action Skill Cooldown Rate: Up to +28%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Action Skill Cooldown Rate: Up to +35%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hearty Stock",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increased Maximum Shield Capacity.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Shields: +10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Shields: +20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Shields: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Ready for Action",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains improved Shield Recharge Rate and Shield Recharge Delay.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Shield Recharge Rate: +6%<br>Shield Recharge Delay: -7%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Shield Recharge Rate: +12%<br>Shield Recharge Delay: -14%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Shield Recharge Rate: +18%<br>Shield Recharge Delay: -19%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Shield Recharge Rate: +24%<br>Shield Recharge Delay: -24%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Shield Recharge Rate: +30%<br>Shield Recharge Delay: -29%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Charged Relay",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Whenever Zane or an ally touches the Barrier, they gain increased Movement Speed and Reload Speed for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Reload Speed: +20%<br>Movement Speed: +11%<br>Duration: 8 seconds after moving away from Barrier"
+                    }
+                ]
+            },
+            {
+                "skillName": "Brain Freeze",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane scores a Critical Hit on an enemy, there's a chance they will be Slowed. This effect stacks until the target is Frozen.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Slow Chance: +4.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Slow Chance: +8.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Slow Chance: +12.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Slow Chance: +16.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Slow Chance: +20.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Stiff Upper Lip",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane is damaged, he gains Damage Resistance against that damage type.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Resistance: +6.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Resistance: +12.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Resistance: +16.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rise to the Occastion",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains Health Regeneration. The lower his shield is, the higher the bonus.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Health Regeneration: up to +1.0% of Max Health / sec"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Health Regeneration: up to +2.0% of Max Health / sec"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Health Regeneration: up to +3.0% of Max Health / sec"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Health Regeneration: up to +4.0% of Max Health / sec"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Health Regeneration: up to +5.0% of Max Health / sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Nanites or Some Shite",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Zane and his allies gain Health Regeneration, increased Reload Speed, and greatly improved Shield Recharge Delay while near his Barrier. The lower his health, the more health is regenerated.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Regeneration: up to 4% of Max Health/sec while near Barrier<br>Shield Recharge Delay: -33%<br>Reload Speed: +11%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Confident Competence",
+                "skillType": "Passive Ability",
+                "skillDesc": "While Zane's shields are active, he gains increased Gun Damage and Accuracy. This bonus is based on the amount of shields he has. The more percent full, the greater the bonus.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: up to +20%<br>Accuracy: up to +33%"
+                    }
+                ]
+            },
+            {
+                "skillName": "All-Rounder",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Zane's Barrier becomes a dome, covering all sides.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: +20%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Retaliation",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Zane and allies near the Barrier gain increased Gun Damage for a few seconds after the Barrier takes damage.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Gun Damage: +10%<br>Duration: 3 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Really Expensive Jacket",
+                "skillType": "Passive Ability",
+                "skillDesc": "Elemental Status Effects applied to Zane have reduced duration.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Status Effect Duration: -50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Best Served Cold",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Whenever Zane kills an enemy, they create a Cryo Nova, dealing damage to all nearby enemies. This skill has a short cooldown.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: 2<br>Cooldown: 3 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: 4<br>Cooldown: 3 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage: 6<br>Cooldown: 3 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage: 8<br>Cooldown: 3 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage: 11<br>Cooldown: 3 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Futility Belt",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains resistance to non-elemental damage. Kill Skill. After killing an enemy, all elemental damage Zane takes is converted to non-elemental damage.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reduction: +15.0%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Deterrence Field",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Enemies that touch the Barrier take Shock Damage and are staggered.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Shock Damage: 27"
+                    }
+                ]
+            },
+            {
+                "skillName": "Refreshment",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane damages a frozen enemy with his weapon, he gains some of that damage back as health.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Life Steal: 8% of damage dealt"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Life Steal: 16% of damage dealt"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Life Steal: 24% of damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Calm, Cool, Collected",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane Freezes an enemy, his shield instantly begins recharging. If Zane's shields are already full, he regenerates health for a few seconds. If Zane's health is already full, his Action Skill Cooldowns and Durations are immediately reset.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Health Regeneration: up to 3% max health / sec<br>Regeneration Duration: 3 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Nerves of Steel",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increasing Accuracy and Handling. The longer his shield is full, the greater the bonus.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Accuracy: +2.0% per second<br>Handling: +2.4% per second<br>Max Stacks: 15"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Accuracy: +4.0% per second<br>Handling: +4.8% per second<br>Max Stacks: 15"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Accuracy: +6.0% per second<br>Handling: +7.0% per second<br>Max Stacks: 15"
+                    }
+                ]
+            },
+            {
+                "skillName": "Distribute Denial",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane's Barrier gains the effects of his currently equipped Shield Mod. Additionally, shield effects are applied to all allies near the Barrier. Bonuses to Zane are reduced.",
+                "treeNum": 1,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Throw that on the big screen."
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree2": {
+        "treeNum": 2,
+        "skillTreeName": "Hitman",
+        "skillList": [
+            {
+                "skillName": "SNTNL",
+                "skillType": "Action Skill",
+                "skillDesc": "Send into battle an automated SNTNL drone that continually flies through the environment and attacks enemies with its Machine Guns. Pressing F or G while SNTNL is active causes it to attack the enemy under Zane's crosshairs, if any.",
+                "treeNum": 2,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Duration: 24 seconds<br>Cooldown: 60 seconds<br>Machine Gun Damage: 4"
+                    }
+                ]
+            },
+            {
+                "skillName": "Violent Speed",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Zane gains increased Movement Speed for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Movement Speed: +4.0%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Movement Speed: +8.0%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Movement Speed: +12.0%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Movement Speed: +16.0%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Movement Speed: +20.0%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Cold Bore",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increased Weapon Swap Speed. The next shot fired after swapping weapons deals Bonus Cryo Damage.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Weapon Swap Speed: +13%<br>Bonus Cryo Damage: +6%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Weapon Swap Speed: +23%<br>Bonus Cryo Damage: +12%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Weapon Swap Speed: +31%<br>Bonus Cryo Damage: +18%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Weapon Swap Speed: +38%<br>Bonus Cryo Damage: +24%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Weapon Swap Speed: +43%<br>Bonus Cryo Damage: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Violent Momentum",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane's Gun Damage is increased while moving. The quicker he moves, the greater the Gun Damage bonus.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +4.0% at default walk speed"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +8.0% at default walk speed"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +12.0% at default walk speed"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Gun Damage: +16.0% at default walk speed"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Gun Damage: +20.0% at default walk speed"
+                    }
+                ]
+            },
+            {
+                "skillName": "Winter's Drone",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Converts SNTNL's primary weapons to Cryo Damage.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Converts SNTNL Weapon Damage to Cryo<br>Drone Damage: -20%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Cool Hand",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increased Reload Speed. Kill Skill. After killing an enemy, Zane's Reload Speed is increased for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Reload Speed: +2.9%<br>Reload Speed: +4.0% after kill<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Reload Speed: +5.7%<br>Reload Speed: +7.0% after kill<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Reload Speed: +8.3%<br>Reload Speed: +11.0% after kill<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Reload Speed: +10.7%<br>Reload Speed: +14.0% after kill<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Reload Speed: +13.0%<br>Reload Speed: +17.0% after kill<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Drone Delivery",
+                "skillType": "Passive Ability",
+                "skillDesc": "SNTNL will occasionally drop a free grenade based on Zane's current grenade mod while attacking enemies.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Cooldown: 15 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Salvation",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Zane's weapons gain Life Steal for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Life Steal: 2% of damage dealt<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Life Steal: 4% of damage dealt<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Life Steal: 6% of damage dealt<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Life Steal: 8% of damage dealt<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Life Steal: 10% of damage dealt<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Bad Dose",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "SNTNL occasionally shoots out a beam of Radiation that weakens enemies and buffs Zane. For every weakened enemy, Zane’s Movement Speed and Fire Rate are increased. Weakened enemies have decreased Movement Speed and Attack Speed.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Fire Rate: +2.00% per enemy<br>Movement Speed: +6.00% per enemy<br>Damage: 4 / second<br>Duration: 12 seconds<br>Cooldown: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Death Follows Close",
+                "skillType": "Passive Ability",
+                "skillDesc": "All of Zane's Kill Skills gain increased effect and duration.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Kill Skill Duration: +7 seconds<br>Kill Skill Bonus: +25.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Static Field",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "SNTNL emits a static field that sends a Shock Beam to nearby enemies, draining their shields and replenishing Zane’s.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Shield Damage: 2 / second<br>Cooldown: 2 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Boomsday",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "SNTNL adds a rocket pod to its primary weapons, allowing it to shoot rockets as well as machine guns.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Rocket Damage: 21"
+                    }
+                ]
+            },
+            {
+                "skillName": "Violent Violence",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Zane gains increased Fire Rate for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fire Rate: +4%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Fire Rate: +8%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Fire Rate: +12%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Fire Rate: +16%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Fire Rate: +20%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Playing Dirty",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Zane’s next five shots all have a chance to fire an additional projectile.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Extra Shot Chance: 10.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Extra Shot Chance: 20.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Extra Shot Chance: 30.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Extra Shot Chance: 40.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Extra Shot Chance: 50.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Almighty Ordnance",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Hold down F or G while SNTNL is deployed to paint a target area. SNTNL fires a missile barrage at that area, and if an enemy is killed, SNTNL's duration is reset. This can only be used once per Action Skill use.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Missile Damage: 32<br>Missiles per Barrage: 4"
+                    }
+                ]
+            },
+            {
+                "skillName": "Good Misfortune",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Killing an enemy increases Zane's Action Skill Duration. This skill has diminishing returns.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Duration Return: up to 4.0% max duration"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Duration Return: up to 8.0% max duration"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Duration Return: up to 12.0% max duration"
+                    }
+                ]
+            },
+            {
+                "skillName": "Seein' Red",
+                "skillType": "Passive Ability",
+                "skillDesc": "Activating an Action Skill automatically activates all of Zane's Kill Skills.",
+                "treeNum": 2,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree3": {
+        "treeNum": 3,
+        "skillTreeName": "Doubled Agent",
+        "skillList": [
+            {
+                "skillName": "Digi-Clone",
+                "skillType": "Action Skill",
+                "skillDesc": "Spawn a Digi-Clone of Zane. This Clone stays in place, but distracts and fires at enemies. Pressing F or G while the Clone is active causes Zane and the Clone to swap places.",
+                "treeNum": 3,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Duration: 15 seconds<br>Cooldown: 28 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Synchronicity",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever one or more of Zane's action skills are active, he gains increased Gun Damage for each active action skill.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +4% per active action skill"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +8% per active action skill"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +12% per active action skill"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Gun Damage: +16% per active action skill"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Gun Damage: +20% per active action skill"
+                    }
+                ]
+            },
+            {
+                "skillName": "Praemunitus",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane and his Digi-Clone gain increased Magazine Size.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Magazine Size: +8.3%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Magazine Size: +16.7%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Magazine Size: +25.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Borrowed Time",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane gains increased Action Skill Duration for every active Action Skill.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Action Skill Duration: +3% per active action skill"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Action Skill Duration: +6% per active action skill"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Action Skill Duration: +9% per active action skill"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Action Skill Duration: +12% per active action skill"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Action Skill Duration: +15% per active action skill"
+                    }
+                ]
+            },
+            {
+                "skillName": "Binary System",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Whenever Zane swaps places with his Clone, a Cryo Nova is triggered around Zane and his Clone.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Nova Damage: 46"
+                    }
+                ]
+            },
+            {
+                "skillName": "Donnybrook",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Whenever Zane kills an enemy, he and his Digi-Clone receive increased Gun Damage and gain Health Regeneration for a few seconds.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +3%<br>Health Regeneration: 0.5% of Missing Health / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +6%<br>Health Regeneration: 1.0% of Missing Health / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +9%<br>Health Regeneration: 1.5% of Missing Health / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Gun Damage: +12%<br>Health Regeneration: 2.0% of Missing Health / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Gun Damage: +15%<br>Health Regeneration: 2.5% of Missing Health / sec<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fractal Frags",
+                "skillType": "Passive Ability",
+                "skillDesc": "The Digi-Clone throws a copy of Zane's current grenade mod when it is first activated. If the Digi-Clone is killed, it drops a free grenade. Kill Skill. Killing an enemy while the Digi-Clone is active gives the Clone a chance to throw a grenade.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Grenade Chance: 30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Duct Tape Mod",
+                "skillType": "Passive Ability",
+                "skillDesc": "The first shot fired from Zane's gun has a chance to also fire a grenade. This skill has a short cooldown",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Grenade Chance: up to 4%<br>Cooldown Time: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Grenade Chance: up to 8%<br>Cooldown Time: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Grenade Chance: up to 12%<br>Cooldown Time: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Grenade Chance: up to 16%<br>Cooldown Time: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Grenade Chance: up to 20%<br>Cooldown Time: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Schadenfreude",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Whenever the Clone takes damage, Zane's shield is restored by a portion of that damage.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Shields Restored: +100.0% of Digi-Clone damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "Quick Breather",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane swaps places with his Clone, his shield immediately begins recharging.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "I can do this all day."
+                    }
+                ]
+            },
+            {
+                "skillName": "Which One's Real?",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Enemies are more likely to target the Clone for a few seconds after it’s summoned and after swapping places.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Duration: 4 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Doppelbanger",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Hold down F or G to end the action skill early. When Zane’s Action Skill is ended, the Clone explodes, dealing Splash Damage to all nearby enemies. The more Action Skill time remaining, the greater the damage.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: Up to 280"
+                    }
+                ]
+            },
+            {
+                "skillName": "Pocket Full of Grenades",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Zane gains Grenade Regeneration for a few seconds.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Grenade Regeneration: 7% / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Grenade Regeneration: 13% / sec<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Grenade Regeneration: 20% / sec<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Old-U",
+                "skillType": "Passive Ability",
+                "skillDesc": "Press F or G during Fight for Your Life if Digi-Clone is active to destroy the clone and immediately gain a Second Wind with full health.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Health Restored: 100% of Max Health"
+                    }
+                ]
+            },
+            {
+                "skillName": "Supersonic Man",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever one or more of Zane's Action Skills are active, he gains increased Movement Speed for each active Action Skill.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Movement Speed: +4% per active action skill"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Movement Speed: +8% per active action skill"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Movement Speed: +12% per active action skill"
+                    }
+                ]
+            },
+            {
+                "skillName": "Digital Distribution",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "If Zane takes health damage while the Clone is active, a portion of that damage is shared to his Clone instead.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Shared Health Damage: +75.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Like a Ghost",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane and his Digi-Clone gain a chance to ignore bullets. This chance is increased for a few seconds after activating an Action Skill. This effect stacks.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Ignore Bullet Chance: 2%<br>Additional Ignore Bullet Chance: +3%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Ignore Bullet Chance: 4%<br>Additional Ignore Bullet Chance: +6%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Ignore Bullet Chance: 6%<br>Additional Ignore Bullet Chance: +9%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Boom. Enhance.",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Zane summons his Digi-Clone, it consumes up to 3 grenades. For every grenade consumed, the Digi-Clone gains increased Gun Damage, Max Health, Fire Rate, Reload Speed, and Digi-Clone Duration.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +20% per grenade<br>Max Health: +81% per grenade<br>Fire Rate: +5% per grenade<br>Reload Speed: +31% per grenade<br>Digi-clone Duration: +25.0% seconds per grenade"
+                    }
+                ]
+            },
+            {
+                "skillName": "Trick of the Light",
+                "skillType": "Passive Ability",
+                "skillDesc": "Zane deals Bonus Shock Damage to enemies that aren't targeting him.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Damage: 6.0% of damage dealt"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Bonus Damage: 12.0% of damage dealt"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Bonus Damage: 18.0% of damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Double Barrel",
+                "skillType": "Passive Ability",
+                "skillDesc": "The Clone is equipped with a copy of Zane's Current Weapon when activated. Swapping places with the Clone causes Zane and his clone to gain increased Gun Damage.",
+                "treeNum": 3,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Item Duping: +100%<br>Gun Damage: +20%"
+                    }
+                ]
+            }
+        ]
+    }
+}

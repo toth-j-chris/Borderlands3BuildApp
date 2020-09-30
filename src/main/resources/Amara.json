@@ -1,0 +1,1317 @@
+{
+    "charName": "Amara",
+    "skillTree1": {
+        "treeNum": 1,
+        "skillTreeName": "Brawl",
+        "skillList": [
+            {
+                "skillName": "Phaseslam",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara leaps into the air and Slams the ground, dealing damage to all nearby enemies and knocking them up.",
+                "treeNum": 1,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 35 seconds<br>Damage: 98"
+                    }
+                ]
+            },
+            {
+                "skillName": "Root to Rise",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Max Health.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Health: +8%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Health: +16%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Health: +24%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Health: +32%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Health: +40%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Personal Space",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's weapon shots deal Bonus Damage based on the distance to her target. The closer the target, the greater the bonus.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Damage: up to 12.0% of damage dealt"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Bonus Damage: up to 24.0% of damage dealt"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Bonus Damage: up to 36.0% of damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Clarity",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara constantly regenerates health. The lower her health, the more powerful the regeneration. After using an Action Skill, this bonus is doubled for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Health Regeneration: up to +1.00% Missing Health / sec<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Health Regeneration: up to +2.00% Missing Health / sec<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Health Regeneration: up to +3.00% Missing Health / sec<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Health Regeneration: up to +4.00% Missing Health / sec<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Health Regeneration: up to +5.00% Missing Health / sec<br>Duration: 5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Arms Deal",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara deals increased Splash Damage, and takes reduced Splash Damage.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Splash Damage: +4%<br>Splash Damage Reduction: +12%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Splash Damage: +8%<br>Splash Damage Reduction: +21%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Splash Damage: +12%<br>Splash Damage Reduction: +28%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Splash Damage: +16%<br>Splash Damage Reduction: +35%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Splash Damage: +20%<br>Splash Damage Reduction: +40%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Samsara",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara deals damage to an enemy with her Action Skill, she adds a stack of Samsara. For every stack of Samsara, Amara gains increased Gun Damage and Health Regeneration for a few seconds. Stacks decay after a few seconds.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +1.7% per enemy damaged<br>Health Regeneration: +1.7% of Max Health / sec. per stack<br>Max Samsara Stacks: 5<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +3.3% per enemy damaged<br>Health Regeneration: +3.3% of Max Health / sec. per stack<br>Max Samsara Stacks: 5<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +5.0% per enemy damaged<br>Health Regeneration: +5.0% of Max Health / sec. per stack<br>Max Samsara Stacks: 5<br>Duration: 20 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Helping Hand(s)",
+                "skillType": "Passive Ability",
+                "skillDesc": "For a few seconds after using her Action Skill, Amara's arms remain active and grant her Damage Reduction.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reduction: +12.0%<br>Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Reduction: +21.0%<br>Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Reduction: +28.0%<br>Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage Reduction: +35.0%<br>Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage Reduction: +40.0%<br>Duration: 15 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Blight Tiger",
+                "skillType": "Action Skill Element",
+                "skillDesc": "Converts Amara's Action Skill to Corrosive Damage.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Converts to Corrosive Damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fracture",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara summons a line of fists that erupt from the gound, dealing damage to enemies in front of Amara.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 28 seconds<br>Damage: 88"
+                    }
+                ]
+            },
+            {
+                "skillName": "Mindfulness",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara takes damage, she gains a stack of Mindfulness. For every stack of Mindfulness, Amara gains improved Shield Regeneration Delay and Movement Speed. Stacks decay after a few seconds.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Shield Regeneration Delay: -9.0%<br>Movement Speed: +1.4%<br>Max Mindfulness Stacks: 25<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Shield Regeneration Delay: -17.0%<br>Movement Speed: +2.8%<br>Max Mindfulness Stacks: 25<br>Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Shield Regeneration Delay: -23.0%<br>Movement Speed: +4.2%<br>Max Mindfulness Stacks: 25<br>Duration: 5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Find Your Center",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Melee Damage. Additionally, for a few seconds after using her Action Skill, Amara gains increased Melee Range.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Melee Damage: +100%<br>Duration: 20 seconds<br>Melee Range: +75%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Vigor",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Killing an enemy with Amara's Action Skill grants all allies increased Movement Speed for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Team Movement Speed: +3.3%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Team Movement Speed: +6.7%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Team Movement Speed: +10.0%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Revelation",
+                "skillType": "Action Skill Effect",
+                "skillDesc": "Amara's Action Skill now creates a Nova when it damages enemies, dealing damage to all nearby enemies.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Action Skill Damage: -15%<br>Nova Damage: 18"
+                    }
+                ]
+            },
+            {
+                "skillName": "Downfall",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara leaps into the air and shoots an Elemental Beam below her briefly, followed by a Slam.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 47 seconds<br>Damage: 95<br>Beam Damage: 14 / second"
+                    }
+                ]
+            },
+            {
+                "skillName": "One With Nature",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Max Health and Elemental Damage Resistance to her Action Skill Element.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Health: +5.0%<br>Elemental Damage Reduction: +12.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Health: +10.0%<br>Elemental Damage Reduction: +21.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Health: +15.0%<br>Elemental Damage Reduction: +28.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Health: +20.0%<br>Elemental Damage Reduction: +35.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Health: +25.0%<br>Elemental Damage Reduction: +40.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Do Unto Others",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever an enemy damages Amara, she automatically throws an energy orb back at them, dealing Action Skill Elemental Damage. This skill has a short cooldown.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Cooldown: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Jab Cross",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara deals melee damage to an enemy, she gains increased Action Skill Damage and increased Gun Damage for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +3%<br>Action Skill Damage: +15%<br>Duration: 10 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +6%<br>Action Skill Damage: +30%<br>Duration: 10 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +9%<br>Action Skill Damage: +45%<br>Duration: 10 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Gun Damage: +12%<br>Action Skill Damage: +60%<br>Duration: 10 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Gun Damage: +15%<br>Action Skill Damage: +75%<br>Duration: 10 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Guardian Angel",
+                "skillType": "Passive Ability",
+                "skillDesc": "When Amara enters Fight For Your Life, she immediately gains a Second Wind, restores her health, and creates an Action Skill Elemental Nova that may knock back nearby enemies. This skill has a long cooldown.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Health Restored: 100% of Max Health<br>Cooldown: 120 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Glamour",
+                "skillType": "Action Skill Effect",
+                "skillDesc": "Enemies damaged by Amara's action skill become confused and temporarily attack their allies. However, Action Skill Cooldown is increased. If Amara targets an enemy with Phasegrasp, enemies near the Grasped target are confused as well.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Confuse Duration: 8 seconds<br>Cooldown: +20%<br>Damage: -30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Blitz",
+                "skillType": "Passive Ability",
+                "skillDesc": "Melee Override. Press V while aiming at an enemy to make Amara dash a short distance forward and perform a special melee strike, dealing Elemental Melee Damage. If a Blitz melee attack kills an enemy, Blitz's cooldown is immediately reset.",
+                "treeNum": 1,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Cooldown: 8 seconds<br>Melee Damage: +100%"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree2": {
+        "treeNum": 2,
+        "skillTreeName": "Mystical Assault",
+        "skillList": [
+            {
+                "skillName": "Phasecast",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara sends forward an Astral Projection of herself, dealing damage to everything in its path.",
+                "treeNum": 2,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 28 seconds<br>Damage: 92"
+                    }
+                ]
+            },
+            {
+                "skillName": "Do Harm",
+                "skillType": "Passive Ability",
+                "skillDesc": "Killing an enemy grants Amara a stack of Rush. Activating her Action Skill consumes all Rush stacks. For every stack of Rush consumed, Amara's Action Skill Damage is temporarily increased.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Rush Stacks: 10<br>Action Skill Damage: +0.9% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Rush Stacks: 10<br>Action Skill Damage: +1.8% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Rush Stacks: 10<br>Action Skill Damage: +2.7% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Rush Stacks: 10<br>Action Skill Damage: +3.6% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Rush Stacks: 10<br>Action Skill Damage: +4.5% per stack consumed<br>Duration: 20 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fast Hand(s)",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's Reload Speed, Weapon Swap Speed, and Mode Switch Speed are improved.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Reload Speed: +7%<br>Weapon Swap Speed: +16%<br>Mode Switch Speed: +16%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Reload Speed: +14%<br>Weapon Swap Speed: +28%<br>Mode Switch Speed: +28%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Reload Speed: +19%<br>Weapon Swap Speed: +36%<br>Mode Switch Speed: +36%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Violent Tapestry",
+                "skillType": "Passive Ability",
+                "skillDesc": "Applying a Status Effect grants Amara a stack of Rush. Activating her action skill consumes all Rush stacks. For every stack of Rush consumed, Amara's Status Effect Chance is temporarily increased.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Rush Stacks: 10<br>Effect Chance: +0.6% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Rush Stacks: 10<br>Effect Chance: +1.2% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Rush Stacks: 10<br>Effect Chance: +1.8% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Rush Stacks: 10<br>Effect Chance: +2.4% per stack consumed<br>Duration: 20 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Rush Stacks: 10<br>Effect Chance: +3.0% per stack consumed<br>Duration: 20 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Alacrity",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Reload Speed for every stack of Rush. After consuming Rush stacks, this bonus is increased for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Reload Speed: +0.4% per stack<br>Reload Speed: +0.6% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Reload Speed: +0.8% per stack<br>Reload Speed: +1.2% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Reload Speed: +1.2% per stack<br>Reload Speed: +1.8% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Reload Speed: +1.6% per stack<br>Reload Speed: +2.3% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Reload Speed: +2.0% per stack<br>Reload Speed: +2.9% after action skill use<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Transcend",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Accuracy and Critical Hit Damage for a few seconds after activating her Action Skill.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Accuracy: +17%<br>Critical Hit Damage: +9%<br>Duration: 12 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Accuracy: +29%<br>Critical Hit Damage: +18%<br>Duration: 12 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Accuracy: +38%<br>Critical Hit Damage: +27%<br>Duration: 12 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Restless",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Action Skill Cooldown Rate.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Cooldown Rate: +5%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Cooldown Rate: +10%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Cooldown Rate: +15%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Cooldown Rate: +20%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Cooldown Rate: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Soul Sap",
+                "skillType": "Action Skill Effect",
+                "skillDesc": "A portion of all damage dealt by Amara's Action Skill is returned to her or a nearby ally as health.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Life Steal: 30% of Skill damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Deliverance",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara sends forward an Astral Projection of herself, dealing damage to everything in its path. Whenever Amara's Astral Projection damages an enemy or object, it releases homing Elemental Projectiles that trigger her Action Skill Elemental Effect on enemies.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 28 seconds<br>Damage: 86<br>Elemental Projectiles: 3 per enemy hit"
+                    }
+                ]
+            },
+            {
+                "skillName": "Ascendant",
+                "skillType": "Passive Ability",
+                "skillDesc": "All Action Skill Augments gain increased effects.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Soul Sap Lifesteal: +20%<br>Allure Radius: +100%<br>Glamour Duration: +50%<br>Stillness of Mind: Breaks 0.75 seconds after being damaged<br>Revelation Damage: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Stillness of Mind",
+                "skillType": "Action Skill Effect",
+                "skillDesc": "Enemies damaged by Amara's Action Skill become phaselocked until they are damaged or the duration ends. However, Action Skill Cooldown is increased. If Amara targets an enemy with Phasegrasp, enemies near the Grasped target are phaselocked.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Max Duration: 6 seconds<br>Cooldown: +15%<br>Damage: -25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Reverberation",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara sends forward an Astral Projection of herself, dealing damage to everything in its path. Astral Projection deals increased damage for every enemy it hits.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 30 seconds<br>Damage Bonus: +50% per enemy hit<br>Damage: 88"
+                    }
+                ]
+            },
+            {
+                "skillName": "From Rest",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains improved Fire Rate and Charge Time.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fire Rate: +4%<br>Charge Time: +21%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Fire Rate: +8%<br>Charge Time: +34%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Fire Rate: +12%<br>Charge Time: +44%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Laid Bare",
+                "skillType": "Passive Ability",
+                "skillDesc": "Enemies take increased damage from all sources for a few seconds after being damaged by Amara's Action Skill.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Increase: +8.3%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Increase: +16.7%<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Increase: +25.0%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Wrath",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Gun Damage. This effect is increased after she activates her action skill for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +6.7%<br>Gun Damage: +6.7% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +13.3%<br>Gun Damage: +13.3% after action skill use<br>Duration: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +20.0%<br>Gun Damage: +20.0% after action skill use<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Remnant",
+                "skillType": "Passive Ability",
+                "skillDesc": "When Amara kills an enemy with a Gun or Action Skill, she creates a homing projectile that seeks out a new enemy dealing her Action Skill Elemental Damage.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Remnant Damage: 9"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Remnant Damage: 18"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Remnant Damage: 26"
+                    }
+                ]
+            },
+            {
+                "skillName": "Awakening",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's Rush stacks gain increased effectiveness.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Rush Stack Effectiveness: +10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Rush Stack Effectiveness: +20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Rush Stack Effectiveness: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Tandava",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara sends forward an Astral Projection of herself. When it hits a target, it explodes, damaging all nearby enemies.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 35 seconds<br>Damage: 91"
+                    }
+                ]
+            },
+            {
+                "skillName": "Avatar",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's Action Skill can be activated while it's cooling down. This skill can only be used once per completed cooldown. Additionally, increases Amara's Max Rush Stacks. Additionally, if Amara's Action Skill kills an enemy, it refunds half of her Rush stacks.",
+                "treeNum": 2,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Rush Stacks: +10"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree3": {
+        "treeNum": 3,
+        "skillTreeName": "Fist of the Elements",
+        "skillList": [
+            {
+                "skillName": "Phasegrasp",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara summons a giant fist that bursts from the ground and locks the targeted enemy in place for a few seconds. Some enemies are immune to being Grasped and instantly take damage instead.",
+                "treeNum": 3,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Skill Duration: 7 seconds<br>Cooldown: 16 seconds<br>Grasp Immune Damage: 28"
+                    }
+                ]
+            },
+            {
+                "skillName": "Anima",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's Status Effects deal increased damage over time and have increased duration. Her Action Skill Status Effect deals further increased damage.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Action Skill Status Effect Damage: +8%<br>Status Effect Damage: +4%<br>Status Effect Duration: +20%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Action Skill Status Effect Damage: +16%<br>Status Effect Damage: +8%<br>Status Effect Duration: +40%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Action Skill Status Effect Damage: +24%<br>Status Effect Damage: +12%<br>Status Effect Duration: +60%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Action Skill Status Effect Damage: +32%<br>Status Effect Damage: +16%<br>Status Effect Duration: +80%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Action Skill Status Effect Damage: +40%<br>Status Effect Damage: +20%<br>Status Effect Duration: +100%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Steady Hand(s)",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Weapon Handling and Accuracy.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Handling: +14%<br>Accuracy: +13%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Handling: +24%<br>Accuracy: +23%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Handling: +32%<br>Accuracy: +31%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Infusion",
+                "skillType": "Passive Ability",
+                "skillDesc": "Convert a portion of damage dealth by Amara's weapons into her Action Skill Element.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Converted Damage: 8%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Converted Damage: 16%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Converted Damage: 24%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Converted Damage: 32%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Converted Damage: 40%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Tempest",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Elemental Damage. Shock damage is further increased.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Shock Damage: +4.0%<br>Elemental Damage: +6.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Shock Damage: +8.0%<br>Elemental Damage: +12.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Shock Damage: +12.0%<br>Elemental Damage: +18.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Shock Damage: +16.0%<br>Elemental Damage: +24.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Shock Damage: +20.0%<br>Elemental Damage: +30.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Illuminated Fist",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Melee Damage and her Melee Damage is converted to her Action Skill Element.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Melee Damage: +75.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Wildfire",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara applies a Status Effect to an enemy, it has a chance to spread to a nearby enemy.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Spread Chance: 8%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Spread Chance: 16%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Spread Chance: 24%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Spread Chance: 32%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Spread Chance: 40%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Soulfire",
+                "skillType": "Action Skill Element",
+                "skillDesc": "Converts Amara's Action Skill to Incendiary Damage.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Converts to Incendiary Damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "The Eternal Fist",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara summons a giant fist that bursts from the ground and locks the targeted enemy in place for a few seconds. Whenever the Grasped enemy is killed, a new fist seeks out and Grasps a new target.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Bonus Targets: Up to +4<br>Cooldown: 20 seconds<br>Grasp Immune Damage: 28"
+                    }
+                ]
+            },
+            {
+                "skillName": "Dread",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's Gun Damage is increased for a few seconds after an enemy is Grasped. Whenever any player kills a Grasped enemy, their current weapon is instantly reloaded.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +15%<br>Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Allure",
+                "skillType": "Action Skill Effect",
+                "skillDesc": "Amara's Action Skill creates a singularity that pulls in enemies.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Action Skill Damage: -20%<br>Duration: 2.5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Indiscriminate",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's bullets that damage enemies have a chance to ricochet and deal decreased damage to other nearby enemies. Ricochet Chance and Damage are increased if the target is currently affected by Phasegrasp or Stillness of Mind.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Ricochet Chance: 10%<br>Ricochet Damage: -50%<br>Action Skill Ricochet Chance: 20%<br>Action Skill Ricochet Damage: -25%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Ricochet Chance: 20%<br>Ricochet Damage: -50%<br>Action Skill Ricochet Chance: 40%<br>Action Skill Ricochet Damage: -25%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Ricochet Chance: 30%<br>Ricochet Damage: -50%<br>Action Skill Ricochet Chance: 60%<br>Action Skill Ricochet Damage: -25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Deep Well",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains increased Magazine Size with elemental weapons.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Magazine Size: +20%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Catharsis",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara triggers an elemental effect on an enemy, when that enemy dies that enemy explodes, dealing her attuned elemental damage along with any other element that is currently inflicted upon that enemy. This skill has a short cooldown.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: 4<br>Cooldown: 8 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: 8<br>Cooldown: 8 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage: 13<br>Cooldown: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Ties That Bind",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara summons a giant fist that bursts from the ground and locks the targeted enemy in place for a few seconds. Enemies near the Grasped target are linked, and any damage dealt to a linked target is shared between all other linked targets.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Link Damage: 35% of damage dealt<br>Cooldown: 18 seconds<br>Grasp Immune Damage: 34"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fist Over Matter",
+                "skillType": "Action Skill",
+                "skillDesc": "Amara summons a giant fist that bursts from the ground and locks the targeted enemy in place for a few seconds. After Grasping the targeted enemy, large fists appears and constantly smash the area, dealing damage to nearby enemies.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 28 seconds<br>Damage: 35<br>Grasp Immune Damage: 39"
+                    }
+                ]
+            },
+            {
+                "skillName": "Sustainment",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara gains Life Steal whenever she deals Elemental Damage with her weapon.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Life Steal: 4% of damage dealt"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Life Steal: 8% of damage dealt"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Life Steal: 12% of damage dealt"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Life Steal: 16% of damage dealt"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Life Steal: 20% of damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Conflux",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Amara applies a Status Effect to an enemy, she gains a chance to randomly Electrocute, Ignite, or Melt that enemy.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Extra Effect Chance: 7%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Extra Effect Chance: 14%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Extra Effect Chance: 21%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Extra Effect Chance: 28%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Extra Effect Chance: 35%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Forceful Expression",
+                "skillType": "Passive Ability",
+                "skillDesc": "Amara's guns deal Bonus Elemental Damage, based on her Action Skill Element.",
+                "treeNum": 3,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Elemental Damage: 18.0% of Damage Dealt"
+                    }
+                ]
+            }
+        ]
+    }
+}

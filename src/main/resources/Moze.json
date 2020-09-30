@@ -1,0 +1,1357 @@
+{
+    "charName": "Moze",
+    "skillTree1": {
+        "treeNum": 1,
+        "skillTreeName": "Bottomless Mags",
+        "skillList": [
+            {
+                "skillName": "Minigun",
+                "skillType": "Action Skill",
+                "skillDesc": "The Minigun is capable of sustained rapid fire. Firing for long periods causes the Minigun to overheat, rendering it inoperable for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Put a little lead in the air and see what falls over."
+                    }
+                ]
+            },
+            {
+                "skillName": "Cloud of Lead",
+                "skillType": "Passive Ability",
+                "skillDesc": "Occasionally, Moze's and Iron Bear's shots will deal additional Incendiary Damage and won’t consume ammo.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Every 8 shots does not consume ammo<br>Bonus Incendiary Damage: +2.25%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Every 7 shots does not consume ammo<br>Bonus Incendiary Damage: +4.50%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Every 6 shots does not consume ammo<br>Bonus Incendiary Damage: +6.75%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Every 5 shots does not consume ammo<br>Bonus Incendiary Damage: +9.00%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Every 4 shots does not consume ammo<br>Bonus Incendiary Damage: +11.25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Dakka Bear",
+                "skillType": "Passive Ability",
+                "skillDesc": "Adds a manned turret to the back of Iron Bear.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fasten your seatbelt, it's going to be a bumpy ride."
+                    }
+                ]
+            },
+            {
+                "skillName": "Matched Set",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze's currently equipped weapon gains a stacking bonus to Magazine Size and Decreased Heat Per Shot for every piece of equipped gear that has a matching manufacturer.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Heat Per Shot: -2.0%<br>Magazine Size: +2.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Heat Per Shot: -4.0%<br>Magazine Size: +4.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Heat Per Shot: -6.0%<br>Magazine Size: +6.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Heat Per Shot: -9.0%<br>Magazine Size: +8.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Heat Per Shot: -11.0%<br>Magazine Size: +10.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Let Off Some Steam",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Minigun deals more damage as heat increases, and can be fired for longer before overheating.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: Up to +80%<br>Minigun Heat Capacity: +35%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Stroke the Embers",
+                "skillType": "Passive Ability",
+                "skillDesc": "Increases Moze and Iron Bear’s Incendiary Damage.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Incendiary Damage: +10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Incendiary Damage: +20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Incendiary Damage: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Redistribution",
+                "skillType": "Passive Ability",
+                "skillDesc": "After Moze scores a Critical Hit, she regenerates ammo for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Ammo Regeneration: +5% of Magazine<br>Redistribution Duration: 3 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Scrappy",
+                "skillType": "Passive Ability",
+                "skillDesc": "While moving, Moze's Handling, Weapon Swap and Mode Switch Speed are increased.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Weapon Swap Speed: +16.0%<br>Mode Switch Speed: +16.0%<br>Handling: +10.7%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Weapon Swap Speed: +27.5%<br>Mode Switch Speed: +27.5%<br>Handling: +19.4%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Weapon Swap Speed: +36.3%<br>Mode Switch Speed: +36.3%<br>Handling: +26.5%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Weapon Swap Speed: +43.2%<br>Mode Switch Speed: +43.2%<br>Handling: +32.4%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Weapon Swap Speed: +48.7%<br>Mode Switch Speed: +48.7%<br>Handling: +37.5%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Salamander",
+                "skillType": "Action Skill",
+                "skillDesc": "The Salamander is a flamethrower that deals Incendiary Damage to enemies at close range. Though the Salamander has infinite ammo, it drains Fuel with use.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Fire... for effect."
+                    }
+                ]
+            },
+            {
+                "skillName": "General Winter",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Minigun fires Cryo rounds which reduce Heat Gain and Fuel Drain, but deal reduced damage.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Fuel Drain: -40%<br>Minigun Damage: -30%<br>Cryo Efficiency: +20%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rushin' Offensive",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze can sprint and shoot at the same time.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "I don't want any messages saying \"I'm holding my position.”"
+                    }
+                ]
+            },
+            {
+                "skillName": "Scorching RPM's",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze gains increased Fire Rate and Critical Hit Damage.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fire Rate: +3.0%<br>Critical Hit Damage: +4.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Fire Rate: +6.0%<br>Critical Hit Damage: +8.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Fire Rate: +9.0%<br>Critical Hit Damage: +12.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Fire Rate: +12.0%<br>Critical Hit Damage: +16.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Fire Rate: +15.0%<br>Critical Hit Damage: +20.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fuel Economy",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Reduces Salamander’s Fuel Drain. Additionally, Iron Bear’s Movement Speed is increased after damaging an enemy with Salamander.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Movement Speed: +25%<br>Fuel Drain: -25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Exploding. Bullets.",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Minigun fires Explosive Rounds that deal increased Splash Damage, but its Fire Rate is decreased.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Minigun Fire Rate: -75%<br>Minigun Damage: +126%"
+                    }
+                ]
+            },
+            {
+                "skillName": "The Iron Bank",
+                "skillType": "Passive Ability",
+                "skillDesc": "Increases Moze's Magazine Size.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Magazine Size: +7.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Magazine Size: +14.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Magazine Size: +21.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Magazine Size: +28.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Magazine Size: +35.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Specialist Bear",
+                "skillType": "Passive Ability",
+                "skillDesc": "Equipping two of the same Weapons on Iron Bear increases the damage they deal.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Iron Bear Damage: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Chemical Warfare",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Salamander now deals Corrosive Damage. Additionally, Salamander’s Melt Damage is increased.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Converts to Corrosive Damage<br>Melt Damage: +50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Some for the Road",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze gains infinite ammo for a few seconds after exiting Iron Bear.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Some for the Road Duration: 5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Click, Click...",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze gains increased Gun Damage as her magazine empties. The less ammo there is remaining, the greater the increase. If Moze has a COV gun equipped, she gains Gun Damage as her gun's heat increases.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: up to +12%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: up to +24%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: up to +36%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Molten Bear",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "The Salamander burst-fires 3 projectiles with increased Fuel Drain, the first of which leaves a large Incendiary area.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Fuel Drain: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Forge",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze constantly regenerates ammo for her currently equipped weapon.",
+                "treeNum": 1,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Ammo Regeneration: +5.0% of magazine/sec"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree2": {
+        "treeNum": 2,
+        "skillTreeName": "Demolition Woman",
+        "skillList": [
+            {
+                "skillName": "V-35 Grenade Launcher",
+                "skillType": "Action Skill",
+                "skillDesc": "The V-35 is a semi-automatic grenade launcher. Its grenades are not affected by Moze’s equipped grenade mod.",
+                "treeNum": 2,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "For when the V-34 just isn't enough."
+                    }
+                ]
+            },
+            {
+                "skillName": "Fire in the Skag Den",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze deals Splash Damage, she deals bonus Incendiary Damage.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Incendiary Damage: +3%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Bonus Incendiary Damage: +6%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Bonus Incendiary Damage: +9%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Bonus Incendiary Damage: +12%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Bonus Incendiary Damage: +15%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Deadlines",
+                "skillType": "Passive Ability",
+                "skillDesc": "Firing Iron Bear Weapons drains less Fuel. Killing an enemy while Iron Bear is active increases Fuel. This skill has diminishing returns.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fuel Drain: -12.0%<br>Fuel Returned: Up to 2.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Fuel Drain: -22.0%<br>Fuel Returned: Up to 4.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Fuel Drain: -30.0%<br>Fuel Returned: Up to 6.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Grizzled",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Killing an enemy reduces Moze’s remaining Action Skill Cooldown Time. This skill has diminishing returns.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Iron Bear Cooldown Time: -1 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Iron Bear Cooldown Time: -2 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Iron Bear Cooldown Time: -3 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Iron Bear Cooldown Time: -4 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Iron Bear Cooldown Time: -5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Shaped Charge",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Direct hits with the V-35 deal increased damage.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Direct Hit Damage: +35%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Means of Destruction",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze deals Splash Damage, there is a chance to add ammo to her currently equipped weapon’s magazine, with a smaller chance to return a grenade.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Ammo Chance: +3.3%<br>Grenade Chance: +2.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Ammo Chance: +6.7%<br>Grenade Chance: +4.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Ammo Chance: +10.0%<br>Grenade Chance: +6.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Torgue Cross-Promotion",
+                "skillType": "Passive Ability",
+                "skillDesc": "All Splash Damage dealt by Moze has a chance to double in size.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "+3% chance to double Splash Damage Radius"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "+6% chance to double Splash Damage Radius"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "+9% chance to double Splash Damage Radius"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "+12% chance to double Splash Damage Radius"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "+15% chance to double Splash Damage Radius"
+                    }
+                ]
+            },
+            {
+                "skillName": "Stainless Steel Bear",
+                "skillType": "Passive Ability",
+                "skillDesc": "Iron Bear gains additional armor and increased Maximum Fuel.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Iron Bear Armor: +6%<br>Maximum Fuel: +4.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Iron Bear Armor: +12%<br>Maximum Fuel: +8.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Iron Bear Armor: +18%<br>Maximum Fuel: +12.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Iron Bear Armor: +24%<br>Maximum Fuel: +16.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Iron Bear Armor: +30%<br>Maximum Fuel: +20.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Vanquisher Rocket Pod",
+                "skillType": "Action Skill",
+                "skillDesc": "The Vanquisher Rocket Pod is a rocket launcher capable of rapid-firing volleys of unguided explosive rockets.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "If you want guidance, get a sherpa. If you want explosions, get a Vladof."
+                    }
+                ]
+            },
+            {
+                "skillName": "Musical Chairs",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Occasionally, the V-35 fires a Singularity Grenade that pulls in nearby enemies before exploding.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Singularity: Every 7th grenade"
+                    }
+                ]
+            },
+            {
+                "skillName": "Pull the Holy Pin",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze’s grenades have a chance to score a Critical Hit, dealing greatly increased damage. Sources of Critical Hit Damage do not affect grenade Critical Hits.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Critical Hit Chance: +10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Critical Hit Chance: +20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Critical Hit Chance: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Auto Bear",
+                "skillType": "Passive Ability",
+                "skillDesc": "After Moze exits Iron Bear, it will remain deployed in place for a short time. While Auto Bear remains active, it will target and attack nearby enemies until its duration ends, then it will charge at an enemy and self-destruct.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Auto Bear Duration: 15 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Active Tracking",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "The Vanquisher Rocket Pod now fires homing rockets and has increased Reload Speed. Hold down F and aim at enemies to designate up to 6 targets. Releasing Fire Button launches a volley of homing rockets at the designated targets.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Reload Speed: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Lock and Speedload",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "The V-35’s Reload Speed is greatly increased and it now fires a 5-round burst.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Reload Speed: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Vampyr",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze damages an enemy with a thrown grenade, for every enemy hit, she restores a portion of her missing health.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Restores +4% of missing health per enemy hit"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Restores +8% of missing health per enemy hit"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Restores +12% of missing health per enemy hit"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Restores +16% of missing health per enemy hit"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Restores +20% of missing health per enemy hit"
+                    }
+                ]
+            },
+            {
+                "skillName": "Why Can't I Carry All These Grenades?",
+                "skillType": "Passive Ability",
+                "skillDesc": "Increases Moze’s grenade carrying capacity.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Grenade Capacity: +1"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Grenade Capacity: +2"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Grenade Capacity: +3"
+                    }
+                ]
+            },
+            {
+                "skillName": "Target Softening",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "The Vanquisher Rocket Pod deals greatly reduced damage per rocket, but fires in a 6-rocket spread. Additionally, enemies hit by Vanquisher Rocket Pod rockets take increased damage from all sources.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Enemy Damage Taken: +15%<br>Damage: -74%"
+                    }
+                ]
+            },
+            {
+                "skillName": "To the Last",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze gains the ability to throw grenades while in Fight For Your Life. If she threw a grenade before gaining Second Wind, a grenade is refunded.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "The greatest enemy is one with nothing to lose... and a grenade."
+                    }
+                ]
+            },
+            {
+                "skillName": "Explosive Punctuation",
+                "skillType": "Passive Ability",
+                "skillDesc": "When Moze deals Splash Daamage, her Action Skill Cooldown Rate is briefly decreased.",
+                "treeNum": 2,
+                "rowNum": 6, 
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Action Skill Cooldown Rate: +5.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Action Skill Cooldown Rate: +10.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Action Skill Cooldown Rate: +15.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Action Skill Cooldown Rate: +20.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Action Skill Cooldown Rate: +25.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hammerdown Protocol",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Instead of a volley of conventional rockets, the Vanquisher Rocket Pod launches a single rocket with a nuclear warhead, dealing massive Radiation Damage.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: +380%<br>Magazine Size: 1"
+                    }
+                ]
+            },
+            {
+                "skillName": "Short Fuse",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze deals Gun Damage, there is a chance of a secondary explosion centered on the target.",
+                "treeNum": 2,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Secondary Explosion Chance: 20%<br>Secondary Explosion Damage: 75% of Gun Damage"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree3": {
+        "treeNum": 3,
+        "skillTreeName": "Shield of Retribution",
+        "skillList": [
+            {
+                "skillName": "Railgun",
+                "skillType": "Action Skill",
+                "skillDesc": "The Railgun fires electrified high-velocity projectiles that deal Shock Damage.",
+                "treeNum": 3,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "It's like a bullet, only bigger. And faster. And wrapped in lightning."
+                    }
+                ]
+            },
+            {
+                "skillName": "Selfless Vengeance",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze reloads, she loses a small portion of her health and grants additional Incendiary Damage to her and her allies’ rounds for a few seconds.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Current Health Removed: 1.0%<br>Bonus Incendiary Damage: +3.0% of gun damage dealt<br>Selfless Vengeance Duration: 5 sec"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Current Health Removed: 2.0%<br>Bonus Incendiary Damage: +6.0% of gun damage dealt<br>Selfless Vengeance Duration: 5 sec"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Current Health Removed: 3.0%<br>Bonus Incendiary Damage: +9.0% of gun damage dealt<br>Selfless Vengeance Duration: 5 sec"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Current Health Removed: 4.0%<br>Bonus Incendiary Damage: +12.0% of gun damage dealt<br>Selfless Vengeance Duration: 5 sec"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Current Health Removed: 5.0%<br>Bonus Incendiary Damage: +15.0% of gun damage dealt<br>Selfless Vengeance Duration: 5 sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Security Bear",
+                "skillType": "Passive Ability",
+                "skillDesc": "Iron Bear gains a bubble shield that reduces damage taken. The shield deactivates if it sustains too much damage, reactivating after a short cooldown.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "20% Iron Bear Max Health added as Shields<br>Bubble Recharge Delay: 5 sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Armore Infantry",
+                "skillType": "Passive Ability",
+                "skillDesc": "While Moze’s shields are active, she gains Damage Reduction and increased Gun Damage.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reduction: +3.0%<br>Gun Damage: +3.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Reduction: +6.0%<br>Gun Damage: +6.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Reduction: +8.0%<br>Gun Damage: +9.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage Reduction: +11.0%<br>Gun Damage: +12.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage Reduction: +13.0%<br>Gun Damage: +15.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hell on Rails",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Railgun now fires superheated rounds that deal Incendiary Damage, but have increased Fuel Drain per shot.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Converts to Incendiary Damage<br>Fuel Drain: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Drowning in Brass",
+                "skillType": "Passive Ability",
+                "skillDesc": "For each stack of Drowning in Brass, Moze’s Fire Rate is reduced, but Gun Damage is increased for both her and her allies.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Moze Fire Rate: -0.5% per stack<br>Gun Damage: +4.0% per stack<br>Max Drowning In Brass Stacks: 3<br>Drowning In Brass Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Moze Fire Rate: -1.0% per stack<br>Gun Damage: +8.0% per stack<br>Max Drowning In Brass Stacks: 3<br>Drowning In Brass Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Moze Fire Rate: -1.5% per stack<br>Gun Damage: +12.0% per stack<br>Max Drowning In Brass Stacks: 3<br>Drowning In Brass Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Moze Fire Rate: -2.0% per stack<br>Gun Damage: +16.0% per stack<br>Max Drowning In Brass Stacks: 3<br>Drowning In Brass Duration: 15 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Moze Fire Rate: -2.5% per stack<br>Gun Damage: +20.0% per stack<br>Max Drowning In Brass Stacks: 3<br>Drowning In Brass Duration: 15 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Thin Red Line",
+                "skillType": "Passive Ability",
+                "skillDesc": "A portion of Moze’s health is Reserved and cannot be restored, but her Maximum Shield is increased by the same amount.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "+20% Max Health Reserved and Added to Max Shields"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "+40% Max Health Reserved and Added to Max Shields"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "+60% Max Health Reserved and Added to Max Shields"
+                    }
+                ]
+            },
+            {
+                "skillName": "Vladof Ingenuity",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze’s Maximum Shield is increased, and she gains resistance to Shock Damage.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Shock Damage Resistance: +15.0%<br>Max Shield: +6.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Shock Damage Resistance: +26.0%<br>Max Shield: +12.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Shock Damage Resistance: +35.0%<br>Max Shield: +18.0%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Shock Damage Resistance: +42.0%<br>Max Shield: +24.0%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Shock Damage Resistance: +47.0%<br>Max Shield: +30.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Bear Fist",
+                "skillType": "Action Skill",
+                "skillDesc": "The Bear Fist is a pneumatic-driven fist that deals massive damage to a single target at close range.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Vladof supports the right to bear armored bear arms."
+                    }
+                ]
+            },
+            {
+                "skillName": "Capacitative Armature",
+                "skillType":"Action Skill Augment",
+                "skillDesc": "When Railgun hits an enemy, it chains to nearby enemies, dealing reduced Shock Damage to more targets.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Splinter Damage: -75%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Full Can of Whoop-Ass",
+                "skillType": "Passive Ability",
+                "skillDesc": "Entering Iron Bear causes Moze’s and her allies’ shields to immediately begin recharging at an increased Shield Recharge Rate.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 2,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Shield Recharge Rate: +25.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Experimental Munitions",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze scores a Critical Hit, she deals bonus Incendiary Damage.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Bonus Incendiary Damage: +10% of Damage Dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Wild Swing",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Whenever Bear Fist hits an enemy, it deals random bonus Elemental Damage to that enemy and all enemies nearby.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Elemental Damage: +35% of damage dealt"
+                    }
+                ]
+            },
+            {
+                "skillName": "Corrosive Sabot Round",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Railgun now fires a specialty round that deals reduced damage and explodes after a short delay. Railgun shots have reduced Fuel Drain and the Magazine Size is increased.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Railgun Damage: -50%<br>Fuel Drain: -50%<br>Magazine Size: +2<br>Converts to Corrosive Damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "Behind the Iron Curtain",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze’s Shield Recharge Delay is reduced, and her Shield Recharge Rate is increased.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Railgun Damage: -50%<br>Fuel Drain: -50%<br>Magazine Size: +2<br>Converts to Corrosive Damage"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Railgun Damage: -50%<br>Fuel Drain: -50%<br>Magazine Size: +2<br>Converts to Corrosive Damage"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Railgun Damage: -50%<br>Fuel Drain: -50%<br>Magazine Size: +2<br>Converts to Corrosive Damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "Desperate Measures",
+                "skillType": "Passive Ability",
+                "skillDesc": "Moze’s Gun Damage is increased depending on how low her health is. The lower her health, the greater the increase.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: up to +17%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: up to +33%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: up to +50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Close the Distance",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Instead of punching, Bear Fist now launches its fist forward and grabs enemies at greatly increased range, dealing Shock Damage and pulling them back to Iron Bear.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Step into my office."
+                    }
+                ]
+            },
+            {
+                "skillName": "Phalanx Doctirine",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, Moze gains a stack of Phalanx Doctrine. For every stack of Phalanx Doctrine, Moze’s Maximum Shield and Gun Damage are increased. Each stack lasts 30 seconds. There is no stack limit.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Shields: +3.0% per stack<br>Gun Damage: +2.0% per stack<br>Phalanx Doctrine Duration: 30 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Shields: +6.0% per stack<br>Gun Damage: +4.0% per stack<br>Phalanx Doctrine Duration: 30 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Shields: +9.0% per stack<br>Gun Damage: +6.0% per stack<br>Phalanx Doctrine Duration: 30 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Shields: +12.0% per stack<br>Gun Damage: +8.0% per stack<br>Phalanx Doctrine Duration: 30 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Shields: +15.0% per stack<br>Gun Damage: +10.0% per stack<br>Phalanx Doctrine Duration: 30 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Force Feedback",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze scores a Critical Kill, her shields immediately begin recharging.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Just click on their heads."
+                    }
+                ]
+            },
+            {
+                "skillName": "Shockhammer",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Bear Fist is now capable of sustained rapid fire punching. Additionally, Bear Fist has reduced Fuel Drain and deals Bonus Shock Damage with each hit.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Shock Damage: +19% of damage dealt<br>Fuel Drain: -40%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Tenacious Defense",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever Moze’s shield is fully depleted, she instantly restores a portion of her shield, and her Gun Damage is increased for a short time. This skill can only trigger after Moze’s shields have fully recharged.",
+                "treeNum": 3,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Restores: +40% of Max Shield<br>Tenacious Defense Duration: 30 seconds<br>Gun Damage: +30%"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1365 @@
+{
+    "charName": "Fl4k",
+    "skillTree1": {
+        "treeNum": 1,
+        "skillTreeName": "Stalker",
+        "skillList": [
+            {
+                "skillName": "Jabber Sidekick",
+                "skillType": "Pet",
+                "skillDesc": "FL4K is joined by a loyal Jabber companion, armed with a Pistol. While accompanied by the Jabber, FL4K’s Movement Speed is increased. Hold F to issue an Attack Command, which will cause the Jabber to throw a Radiation Barrel at enemies.",
+                "treeNum": 1,
+                "rowNum": 1,
+                "colNum": 2,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Movement Speed: +5.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Fade Away",
+                "skillType": "Action Skill",
+                "skillDesc": "FL4K cloaks, turning invisible. FL4K can fire 3 shots while cloaked, and each shot is automatically a Critical Hit. While cloaked, FL4K has increased Movement Speed and Health Regeneration.",
+                "treeNum": 1,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Fade Away Critical Hit Damage: +200%<br>Cloaked Movement Speed: +25%<br>Health Regeneration: +3% of Max Health/sec<br>Cooldown: 45 seconds<br>Skill Duration: 15 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Self-Repairing System",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K’s Maximum Health is increased, and they constantly regenerate health.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Max Health: +6%<br>Health Regeneration: 0.3% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Max Health: +12%<br>Health Regeneration: 0.6% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Max Health: +18%<br>Health Regeneration: 0.9% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Max Health: +24%<br>Health Regeneration: 1.2% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Max Health: +30%<br>Health Regeneration: 1.5% of Max Health/sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Sic 'Em",
+                "skillType": "Passive Ability",
+                "skillDesc": "Attack Command has lowered Cooldown and increased Damage.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Attack Command Damage: +10%<br>Attack Command Cooldown: -10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Attack Command Damage: +20%<br>Attack Command Cooldown: -20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Attack Command Damage: +30%<br>Attack Command Cooldown: -30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Furious Attack",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Skill. After shooting an enemy, FL4K gains a stack of Furious Attack. For each stack of Furious Attack, FL4K’s Handling and Gun Damage are increased. Stacks decay after a few seconds.",
+                "treeNum": 1,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Handling: +1.0% per stack<br>Gun Damage: +0.4% per stack<br>Furious Attack Stacks: 10<br>Furious Attack Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Handling: +2.0% per stack<br>Gun Damage: +0.8% per stack<br>Furious Attack Stacks: 10<br>Furious Attack Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Handling: +2.9% per stack<br>Gun Damage: +1.2% per stack<br>Furious Attack Stacks: 10<br>Furious Attack Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Handling: +3.8% per stack<br>Gun Damage: +1.6% per stack<br>Furious Attack Stacks: 10<br>Furious Attack Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Handling: +4.8% per stack<br>Gun Damage: +2.0% per stack<br>Furious Attack Stacks: 10<br>Furious Attack Duration: 4 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Guerrillas in the Mist",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Fade Away no longer ends after FL4K attacks, at the cost of Critical Hit Damage and Fade Away duration being reduced.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Duration: 8 seconds<br>Critical Hit Damage: 50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Eager to Impress",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. Whenever FL4K kills an enemy, Action Skill Cooldown Time is reduced. Whenever FL4K's pet kills an enemy, Action Skill Cooldown Time is reduced even more and Attack Command's cooldown is refreshed.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet Kill Cooldown Time: -0.5 seconds<br>FL4K Kill Cooldown Time: -0.25 seconds<br>"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Pet Kill Cooldown Time: -1.0 seconds<br>FL4K Kill Cooldown Time: -0.50 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Pet Kill Cooldown Time: -1.5 seconds<br>FL4K Kill Cooldown Time: -0.75 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Pet Kill Cooldown Time: -2.0 seconds<br>FL4K Kill Cooldown Time: -1.00 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Pet Kill Cooldown Time: -2.5 seconds<br>FL4K Kill Cooldown Time: -1.25 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "All My BFF's",
+                "skillType": "Passive Ability",
+                "skillDesc": "Allies share a portion of FL4K’s total Health Regeneration. FL4K’s pet shares twice the amount of Health Regeneration.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Allies Share 17% of FL4K's Health Regeneration"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Allies Share 33% of FL4K's Health Regeneration"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Allies Share 50% of FL4K's Health Regeneration"
+                    }
+                ]
+            },
+            {
+                "skillName": "Overclocked",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K gains increased Fire Rate. FL4K gains even more Fire Rate after reloading.",
+                "treeNum": 1,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Fire Rate after Reloading: +2%<br>Fire Rate: +2%<br>Overclocked Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Fire Rate after Reloading: +4%<br>Fire Rate: +4%<br>Overclocked Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Fire Rate after Reloading: +6%<br>Fire Rate: +6%<br>Overclocked Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Fire Rate after Reloading: +8%<br>Fire Rate: +8%<br>Overclocked Duration: 4 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Fire Rate after Reloading: +10%<br>Fire Rate: +10%<br>Overclocked Duration: 4 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Not My Circus",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "After Fade Away ends, FL4K’s pet will Taunt, drawing the attention of all enemies in a huge radius. For a few seconds after Taunting, the pet gains powerful Damage Reduction.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Pet Taunt Duration: 6 seconds<br>Pet Damage Reduction: +80%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Lick the Wounds",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K is in Fight For Your Life, their pet will attempt to revive them.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Play dead."
+                    }
+                ]
+            },
+            {
+                "skillName": "Turn Tail and Run",
+                "skillType": "Passive Ability",
+                "skillDesc": "While moving, FL4K constantly regenerates health and gains Damage Reduction. While still, FL4K gains Gun Damage and Fire Rate.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reduction While Moving: +6.5%<br>Health Regeneration While Moving: 0.3% of Max Health/sec<br>Gun Damage While Still: +8.3%<br>Fire Rate While Still: +4.0%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Reduction While Moving: +12.3%<br>Health Regeneration While Moving: 0.6% of Max Health/sec<br>Gun Damage While Still: +16.7%<br>Fire Rate While Still: +8.0%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Reduction While Moving: +17.4%<br>Health Regeneration While Moving: 0.9% of Max Health/sec<br>Gun Damage While Still: +25.0%<br>Fire Rate While Still: +12.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Beefcake Jabber",
+                "skillType": "Pet",
+                "skillDesc": "FL4K’s Jabber evolves into a Beefcake, discarding its pistol and equipping a Shotgun. While accompanied by the Beefcake, FL4K gains increased Movement Speed and Maximum Health. When FL4K issues an Attack Command, the Beefcake will summon a melee weapon to deliver a powerful attack that knocks enemies back.",
+                "treeNum": 1,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Movement Speed: +5.0%<br>Max Health: +10.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Until You are Dead",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "The Health Regeneration and Movement Speed of Fade Away persists for a short time after the skill has ended.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Post Cloak Duration: 10 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "The Fast and the Furryous",
+                "skillType": "Passive Ability",
+                "skillDesc": "While above half health, FL4K's Gun Damage and Movement Speed are increased.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +8%<br>Movement Speed: +3.3%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +17%<br>Movement Speed: +6.7%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +25%<br>Movement Speed: +10.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hidden Machine",
+                "skillType": "Passive Ability",
+                "skillDesc": "When an enemy has no target or is attacking a different target, FL4K deals increased damage against them.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: +6%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: +12%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage: +18%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage: +24%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage: +30%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Gunslinger Jabber",
+                "skillType": "Pet",
+                "skillDesc": "FL4K’s Jabber upgrades his gear and equips an SMG. While accompanied by the Gunslinger, FL4K gains increased Movement Speed and Critical Hit Damage. When FL4K issues an Attack Command, the Gunslinger equips a Rocket Launcher to attack the target.",
+                "treeNum": 1,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Movement Speed: +5.0%<br>Critical Hit Damage: +5.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Unblinking Eye",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Successive hits on the same target increase FL4K's Critical Damage per hit. Unblinking Eye resets every 3 hits.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Critical Hit Damage: +75% per hit"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rage and Recover",
+                "skillType": "Passive Ability",
+                "skillDesc": "Kill Skill. After killing an enemy, FL4K and FL4K’s pet regenerate health for a few seconds.",
+                "treeNum": 1,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Health Regeneration: +1.6% of Missing Health/sec<br>Rage and Recover Duration: 3 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Health Regeneration: +3.2% of Missing Health/sec<br>Rage and Recover Duration: 3 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Health Regeneration: +4.8% of Missing Health/sec<br>Rage and Recover Duration: 3 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Health Regeneration: +6.4% of Missing Health/sec<br>Rage and Recover Duration: 3 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Health Regeneration: +8.0% of Missing Health/sec<br>Rage and Recover Duration: 3 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "The Power Inside",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K and FL4K’s Pet gain increased Damage when FL4K activates an Action Skill. If FL4K is at full health, the increased Damage is doubled.",
+                "treeNum": 1,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: +25%<br>The Power Inside Duration: 15 seconds"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree2": {
+        "treeNum": 2,
+        "skillTreeName": "Master",
+        "skillList": [
+            {
+                "skillName": "Guard Skag",
+                "skillType": "Pet",
+                "skillDesc": "FL4K is joined by a loyal Skag companion, which will increase FL4K's Damage. Hold F to issue an Attack Command, which will cause the Skag to vomit acid onto enemies.",
+                "treeNum": 2,
+                "rowNum": 1,
+                "colNum": 2,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: +5.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Gamma Burst",
+                "skillType": "Action Skill",
+                "skillDesc": "FL4K creates a Rift at a target location, teleporting their pet through the Rift and dealing Radiation Damage to nearby enemies. Additionally, FL4K’s pet becomes irradiated, growing in size and dealing bonus Radiation Damage when it attacks. Using Gamma Burst while FL4K’s Pet is downed or dead will revive the pet at the targeted location with 30% of its health, but will double Action Skill Cooldown Time.",
+                "treeNum": 2,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Skill Duration: 20 seconds<br>Cooldown: 30 seconds<br>Damage: 56"
+                    }
+                ]
+            },
+            {
+                "skillName": "Ferocity",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K's Pet deals increased damage.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet Damage: +10%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Pet Damage: +20%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Pet Damage: +30%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Pet Damage: +40%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Pet Damage: +50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Persistence Hunter",
+                "skillType": "Passive Ability",
+                "skillDesc": "Increases FL4K’s Gun Damage and Action Skill Duration.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +4.0%<br>Action Skill Duration: +15%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +8.0%<br>Action Skill Duration: +30%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +12.0%<br>Action Skill Duration: +45%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Go For the Eyes",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K’s pet attacks an enemy, the first melee attack is an automatic Critical Hit that deals increased damage.",
+                "treeNum": 2,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet Critical Hit Damage: +15%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Pet Critical Hit Damage: +30%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Pet Critical Hit Damage: +45%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Pet Critical Hit Damage: +60%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Pet Critical Hit Damage: +75%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Atomic Aroma",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "While Gamma Burst is active, FL4K’s pet is surrounded by a Radiation Aura, constantly damaging all nearby enemies.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Radiation Damage: 4 per second"
+                    }
+                ]
+            },
+            {
+                "skillName": "Who Rescued Who?",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever FL4K’s Pet deals damage, FL4K regenerates health for a few seconds. Whenever FL4K deals damage to an enemy, their Pet’s health is restored for a portion of the damage dealt.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Converts +1.0% of Damage Dealt into Pet Health<br>Health Regeneration: +0.4% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Converts +2.0% of Damage Dealt into Pet Health<br>Health Regeneration: +0.8% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Converts +3.0% of Damage Dealt into Pet Health<br>Health Regeneration: +1.2% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Converts +4.0% of Damage Dealt into Pet Health<br>Health Regeneration: +1.6% of Max Health/sec"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Converts +5.0% of Damage Dealt into Pet Health<br>Health Regeneration: +2.0% of Max Health/sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "He Bites",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K's pet takes damage, the pet returns some of that damage to the attacker.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reflected: +5%"
+                    },
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reflected: +10%"
+                    },
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reflected: +15%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Frenzy",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Skill. When FL4K’s pet deals damage, FL4K and their pet gain a stack of Frenzy. Each stack of Frenzy increases Damage. The stacks decay after a few seconds.",
+                "treeNum": 2,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: +0.8% per stack<br>Max Frenzy Stacks: 10"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: +1.6% per stack<br>Max Frenzy Stacks: 10"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage: +2.4% per stack<br>Max Frenzy Stacks: 10"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage: +3.2% per stack<br>Max Frenzy Stacks: 10"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage: +4.0% per stack<br>Max Frenzy Stacks: 10"
+                    }
+                ]
+            },
+            {
+                "skillName": "Empathic Rage",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "For the duration of Gamma Burst, Damage dealt by FL4K is increased.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: +20%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Psycho Head on a Stick",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Kill Skill. Whenever FL4K kills an enemy, their Pet gains increased Movement Speed and Damage for a few seconds.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet Movement Speed: +12%<br>Pet Damage: +10%<br>Psycho Head On A Stick Duration: 8 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hive Mind",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K takes damage, a portion of all damage they take is shared to their pet instead.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Shared: 5%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage Shared: 10%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage Shared: 15%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Great Horned Skag",
+                "skillType": "Pet",
+                "skillDesc": "FL4K’s Skag evolves into a larger, Great Horned Skag which will increase FL4K’s Damage and Gun Damage. When FL4K issues an Attack Command, the Great Horned Skag will charge at enemies and knock them into the air.",
+                "treeNum": 2,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: +5.0%<br>Gun Damage: +10.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Endurance",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "When FL4K or FL4K’s Pet kills an enemy while Gamma Burst is active, the duration of Gamma Burst is extended and pet damage is increased. These effects can stack up to 5 times.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Skill Duration: +3 seconds per kill<br>Pet Damage: +10% per kill"
+                    }
+                ]
+            },
+            {
+                "skillName": "Barbaric Yawp",
+                "skillType": "Passive Ability",
+                "skillDesc": "Increases the power of Pet Bonuses granted to FL4K.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet Bonuses: +20%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Pet Bonuses: +40%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Pet Bonuses: +60%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Pet Bonuses: +80%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Pet Bonuses: +100%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Mutated Defenses",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K’s pet is at low health, it gains Damage Reduction and regenerates health. This skill has a long cooldown.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Reduction: +30%<br>Health Regeneration: +40% of Max Pet Health<br>Mutated Defenses Cooldown: 15"
+                    }
+                ]
+            },
+            {
+                "skillName": "Eridian Skag",
+                "skillType": "Pet",
+                "skillDesc": "FL4K’s Skag evolves into an Eridian Skag, which will increase FL4K’s Damage and Fire Rate. When FL4K issues an Attack Command, their Eridian Skag pulls nearby enemies in by generating a Singularity.",
+                "treeNum": 2,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Damage: +5.0%<br>Fire Rate: +5.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Burst Aid",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "After using Gamma Burst, the Rift remains for the duration of the skill. While standing near the Rift, FL4K and their allies rapidly Regenerate Health.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Regeneration: +20% of Max Health/sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Pack Tactics",
+                "skillType": "Passive Ability",
+                "skillDesc": "All Damage dealt by FL4K and their Pet is increased. Additionally, the Maximum Health of both FL4K and their Pet is increased.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Pet and FL4K Damage: +5%<br>Pet and FL4K Maximum Health: +5%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Pet and FL4K Damage: +10%<br>Pet and FL4K Maximum Health: +10%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Pet and FL4K Damage: +15%<br>Pet and FL4K Maximum Health: +15%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Shared Spirit",
+                "skillType": "Passive Ability",
+                "skillDesc": "While FL4K is at low health, a portion of all damage they take is shared to their pet instead.",
+                "treeNum": 2,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage Shared: +50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Dominance",
+                "skillType": "Passive Ability",
+                "skillDesc": "Melee Override Skill. FL4K establishes dominance over an enemy, turning it into an ally for a short time. If the enemy is a Beast, the duration is doubled. While under the effects of Dominance, the target constantly loses health until it dies or the effect ends. Only one enemy can be dominated at a time. An enemy can only be dominated once.",
+                "treeNum": 2,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Dominance Duration: 12 seconds<br>Target loses 2% of Max Health/sec"
+                    }
+                ]
+            }
+        ]
+    },
+    "skillTree3": {
+        "treeNum": 3,
+        "skillTreeName": "Hunter",
+        "skillList": [
+            {
+                "skillName": "Spiderant Centurion",
+                "skillType": "Pet",
+                "skillDesc": "FL4K is joined by a loyal Spiderant companion, which will cause FL4K to constantly regenerate health. Hold F to issue an Attack Command, which will cause the Spiderant to charge into enemies.",
+                "treeNum": 3,
+                "rowNum": 1,
+                "colNum": 2,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Regeneration: +1.0% of Max Health/sec"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rakk Attack!",
+                "skillType": "Action Skill",
+                "skillDesc": "FL4K sends forward 2 Rakk to dive-bomb enemies. This skill has multiple charges.",
+                "treeNum": 3,
+                "rowNum": 1,
+                "colNum": 3,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown: 18 seconds<br>Damage: 35"
+                    }
+                ]
+            },
+            {
+                "skillName": "Interplanetary Stalker",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Kill Skill. Whenever FL4K kills an enemy, they gain a stack of Interplanetary Stalker. For each stack of Interplanetary Stalker, they gain a bonus to all damage dealt. Additionally, they gain a unique stacking bonus depending on the type of enemy killed. Each unique bonus can stack up to 3 times. Each stack decays after a short time.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Damage: +2% /stack<br>Human Bonus: +3% Action Skill Damage /stack<br>Robot Bonus: +1.5% Corrosive Damage /stack<br>Beast Bonus: +2% Movement Speed /stack"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: +4% /stack<br>Human Bonus: +6% Action Skill Damage /stack<br>Robot Bonus: +3.0% Corrosive Damage /stack<br>Beast Bonus: +3% Movement Speed /stack"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Damage: +6% /stack<br>Human Bonus: +9% Action Skill Damage /stack<br>Robot Bonus: +4.5% Corrosive Damage /stack<br>Beast Bonus: +5% Movement Speed /stack"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Damage: +8% /stack<br>Human Bonus: +12% Action Skill Damage /stack<br>Robot Bonus: +6.0% Corrosive Damage /stack<br>Beast Bonus: +6% Movement Speed /stack"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Damage: +10% /stack<br>Human Bonus: +15% Action Skill Damage /stack<br>Robot Bonus: +7.5% Corrosive Damage /stack<br>Beast Bonus: +7% Movement Speed /stack"
+                    }
+                ]
+            },
+            {
+                "skillName": "Leave No Trace",
+                "skillType": "Passive Ability",
+                "skillDesc": "When FL4K scores a Critical Hit, there is a chance for 1 ammo to be added to their magazine.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Chance to add ammo: +12%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Damage: +2% /stack<br>Human Bonus: +3% Action Skill Damage /stack<br>Robot Bonus: +1.5% Corrosive Damage /stack<br>Beast Bonus: +2% Movement Speed /stack"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Chance to add ammo: +24%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Second Intention",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Kill Skill. Whenever FL4K kills an enemy, they gain increased Reload Speed. This bonus is increased if FL4K scores a Critical Kill.",
+                "treeNum": 3,
+                "rowNum": 2,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Reload Speed: +3%<br>Critical Kill Reload Speed: +6%<br>Critical Kill Reload Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Reload Speed: +6%<br>Critical Kill Reload Speed: +11%<br>Critical Kill Reload Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Reload Speed: +8%<br>Critical Kill Reload Speed: +15%<br>Critical Kill Reload Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Reload Speed: +11%<br>Critical Kill Reload Speed: +19%<br>Critical Kill Reload Duration: 5 seconds"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Reload Speed: +13%<br>Critical Kill Reload Speed: +23%<br>Critical Kill Reload Duration: 5 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rakk Open a Cold One",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "Converts FL4K’s Rakk to Cryo damage.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Deals Cryo Elemental Damage"
+                    }
+                ]
+            },
+            {
+                "skillName": "Hunter's Eye",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K gains bonuses when fighting different types of enemies.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 2,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Critical Hit Damage: +3% vs. Humans<br>Armor Damage: +6% vs. Robots<br>Damage Reduction: +5.3% vs. Beasts"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Critical Hit Damage: +6% vs. Humans<br>Armor Damage: +12% vs. Robots<br>Damage Reduction: +10.1% vs. Beasts"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Critical Hit Damage: +9% vs. Humans<br>Armor Damage: +18% vs. Robots<br>Damage Reduction: +14.4% vs. Beasts"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Critical Hit Damage: +12% vs. Humans<br>Armor Damage: +24% vs. Robots<br>Damage Reduction: +18.3% vs. Beasts"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Critical Hit Damage: +15% vs. Humans<br>Armor Damage: +30% vs. Robots<br>Damage Reduction: +21.9% vs. Beasts"
+                    }
+                ]
+            },
+            {
+                "skillName": "Head Count",
+                "skillType": "Passive Ability",
+                "skillDesc": "Whenever FL4K scores a Critical Hit, there is a chance their Action Skill Cooldown is reduced.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 3,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Cooldown Time Reduction Chance: +10%<br>Cooldown Time: -2s"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Cooldown Time Reduction Chance: +20%<br>Cooldown Time: -2s"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Cooldown Time Reduction Chance: +30%<br>Cooldown Time: -2s"
+                    }
+                ]
+            },
+            {
+                "skillName": "Ambush Predator",
+                "skillType": "Passive Ability",
+                "skillDesc": "While there are no enemies nearby, FL4K’s Weapon Handling and Critical Hit Damage are increased.",
+                "treeNum": 3,
+                "rowNum": 3,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Critical Hit Damage: +4%<br>Handling: +17%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Critical Hit Damage: +8%<br>Handling: +29%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Critical Hit Damage: +12%<br>Handling: +38%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Critical Hit Damage: +16%<br>Handling: +44%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Critical Hit Damage: +20%<br>Handling: +50%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Falconer's Feast",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "When FL4K’s Rakk damage an enemy, a portion of FL4K’s health is restored.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Returned: 7% of Max Health"
+                    }
+                ]
+            },
+            {
+                "skillName": "Two F4ng",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K has a chance to fire an extra projectile per shot.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 3,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Extra Projectile Chance: +5%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Extra Projectile Chance: +10%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Extra Projectile Chance: +15%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Extra Projectile Chance: +20%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Extra Projectile Chance: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Spiderant Scorcher",
+                "skillType": "Pet",
+                "skillDesc": "FL4K's Spiderant evolves into a Scorcher, occasionally dealing Incendiary Damage to all enemies nearby. While accompanied by the Scorcher, FL4K constantly regenerates health and gains Elemental Resistance. When FL4K issues an Attack Command, the Scorcher will charge enemies.",
+                "treeNum": 3,
+                "rowNum": 4,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Regeneration: +1.0% of Max Health/sec<br>Elemental Damage: +10.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Flock 'n Load",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "FL4K sends forward additional Rakk.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Additional Rakk: +2"
+                    }
+                ]
+            },
+            {
+                "skillName": "Big Game",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K’s Hunter Skills become much more effective and have a longer duration.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 2,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Hunter Skill Effects: +10%<br>Hunter Skill Duration: +33%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Hunter Skill Effects: +20%<br>Hunter Skill Duration: +67%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Hunter Skill Effects: +30%<br>Hunter Skill Duration: +100%"
+                    }
+                ]
+            },
+            {
+                "skillName": "The Most Dangerous Game",
+                "skillType": "Passive Ability",
+                "skillDesc": "Hunter Kill Skill. Whenever FL4K kills a Badass or stronger enemy, they gain increased Critical Hit Damage, Gun Damage, and Handling for a long time. Additionally, they receive a cash reward from the Intergalactic Bureau of Bounty Hunting.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 4,
+                "maxPoints": 3,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +8%<br>Critical Hit Damage: +3.3%<br>Handling: +14.3%<br>Duration: 120 seconds"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +17%<br>Critical Hit Damage: +6.7%<br>Handling: +25.0%<br>Duration: 120 seconds"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +25%<br>Critical Hit Damage: +10.0%<br>Handling: +33.3%<br>Duration: 120 seconds"
+                    }
+                ]
+            },
+            {
+                "skillName": "Spiderant Countess",
+                "skillType": "Pet",
+                "skillDesc": "FL4K’s Spiderant evolves into a Countess, which will cause FL4K to constantly regenerate health and gain Damage Reduction. When FL4K issues an Attack Command, the Countess will burrow underground and then emerge dealing Corrosive Damage in an area.",
+                "treeNum": 3,
+                "rowNum": 5,
+                "colNum": 5,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Health Regeneration: +1.0% of Max Health/sec<br>Damage Reduction: +5.0%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Rakkcelerate",
+                "skillType": "Action Skill Augment",
+                "skillDesc": "FL4K’s Rakk have increased Cooldown Rate, and gain an Additional Charge.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 1,
+                "maxPoints": -1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 0,
+                        "tierDesc": "Cooldown Rate: +20%<br>Skill Charges: +1"
+                    }
+                ]
+            },
+            {
+                "skillName": "Galactic Shadow",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K deals increased Critical Hit Damage, and enemies are less likely to attack them.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Critical Hit Damage: +15%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Grim Harvest",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K gains increased Gun Damage and Action Skill Damage.",
+                "treeNum": 3,
+                "rowNum": 6,
+                "colNum": 4,
+                "maxPoints": 5,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Gun Damage: +3%<br>Action Skill Damage: +5%"
+                    },
+                    {
+                        "tierNum": 2,
+                        "tierDesc": "Gun Damage: +6%<br>Action Skill Damage: +10%"
+                    },
+                    {
+                        "tierNum": 3,
+                        "tierDesc": "Gun Damage: +9%<br>Action Skill Damage: +15%"
+                    },
+                    {
+                        "tierNum": 4,
+                        "tierDesc": "Gun Damage: +12%<br>Action Skill Damage: +20%"
+                    },
+                    {
+                        "tierNum": 5,
+                        "tierDesc": "Gun Damage: +15%<br>Action Skill Damage: +25%"
+                    }
+                ]
+            },
+            {
+                "skillName": "Megavore",
+                "skillType": "Passive Ability",
+                "skillDesc": "FL4K gains a chance to score a Critical Hit with weapons against any part of enemies.",
+                "treeNum": 3,
+                "rowNum": 7,
+                "colNum": 3,
+                "maxPoints": 1,
+                "currPoints": 0,
+                "skillTiers": [
+                    {
+                        "tierNum": 1,
+                        "tierDesc": "Critical Hit Chance: +20%"
+                    }
+                ]
+            }
+        ]
+    }
+}
